@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.py~
+*.py#
+
+# Datasets and weights
+data
+datasets
+getflow/RAFT/models/*.pth
+
+# Train/test logs
+train-log
+test-log
+
+# Demo outputs
+demo/output
